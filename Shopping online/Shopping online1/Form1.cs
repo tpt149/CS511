@@ -34,7 +34,7 @@ namespace Shopping_online1
             txt_home.Visible = false;
             btn_takeaway.BackColor = Color.MistyRose;
             //payy1.Visible = false;
-            //firstCustomControl1.Location = new Point(275, 170);
+            firstCustomControl1.Location = new Point(213, 190);
             grid.RowTemplate.Height = 30;
             grid.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             grid.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -71,14 +71,14 @@ namespace Shopping_online1
             splitContainer1.Visible = true;
             txtSearch.Visible = true;
             splitContainer2.Visible = false;
-            //firstCustomControl1.Visible = false;
+            firstCustomControl1.Visible = false;
             //payy1.Visible = false;
         }
 
         private void btn_home_Click(object sender, EventArgs e)
         {
-            //firstCustomControl1.Visible = true;
-            //firstCustomControl1.Location = new Point(275, 170);
+            firstCustomControl1.Visible = true;
+            firstCustomControl1.Location = new Point(275, 170);
             //payy1.Visible = false;
             splitContainer1.Visible = false;
             txtSearch.Visible = false;
@@ -99,6 +99,7 @@ namespace Shopping_online1
 
         public void AddItem(string name, double cost, string category, string icon)
         {
+
             var w = new Widgets()
             {
                 Title = name,
@@ -294,7 +295,7 @@ namespace Shopping_online1
                 splitContainer2.Visible = true;
             }
             lbl_temp.Text = lblTot.Text;
-            //firstCustomControl1.Visible = false;
+            firstCustomControl1.Visible = false;
             //payy1.Visible = true;
             //payy1.Location = new Point(275, 217);
             //setvalue_total = lblTot.Text;
@@ -311,7 +312,7 @@ namespace Shopping_online1
                 splitContainer2.Visible = true;
             }
             lbl_temp.Text = lblTot.Text;
-            //firstCustomControl1.Visible = false;
+            firstCustomControl1.Visible = false;
             //payy1.Visible = true;
             //payy1.Location = new Point(275, 217);
         }
@@ -461,6 +462,12 @@ namespace Shopping_online1
         private void btn_hide_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Customer c = new Customer();
+            c.Show();
         }
     }
 }
