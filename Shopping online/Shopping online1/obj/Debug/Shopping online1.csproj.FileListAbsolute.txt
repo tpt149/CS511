@@ -436,3 +436,94 @@ C:\Code\C#\CS511\Shopping online\Shopping online1\obj\Debug\Shopping online1.pdb
 C:\Code\C#\CS511\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Customer.resources
 C:\Code\C#\CS511\Shopping online\Shopping online1\obj\Debug\Shopping_online1.feedback.resources
 C:\Code\C#\CS511\Shopping online\Shopping online1\obj\Debug\Shopping_online1.btn_sendd.resources
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Australian Raisins.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Berry Berry Milk Tea.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Butter Chocolate Croissant.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Cappucino - Vietnamo.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Dried Mangoes.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Green Tea Choco Cake.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Honey Grilled Ginger.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Latte Latte.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Passion Panna Cotta.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Peach Milk Tea.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Plums Ginger.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Pure Butter Croissant.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Soft Dried Fruits.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Icon\Tiramisu Mini.png
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Shopping online1.exe.config
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Shopping online1.exe
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Shopping online1.pdb
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zxing.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zxing.presentation.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\EnvDTE.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\stdole.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zxing.xml
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zxing.presentation.xml
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping online1.csproj.AssemblyReference.cache
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping online1.csproj.SuggestedBindingRedirects.cache
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Customer.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.feedback.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.FirstCustomControl.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Form1.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Form2.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.btn_sendd.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Pay.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Payy.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Properties.Resources.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Takeaway.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping_online1.Widgets.resources
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping online1.csproj.GenerateResource.cache
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping online1.csproj.CoreCompileInputs.cache
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping online1.csproj.CopyComplete
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping online1.exe
+C:\Code\C#\Shopping online\Shopping online1\obj\Debug\Shopping online1.pdb

@@ -38,15 +38,17 @@
             // 
             // lbl_name
             // 
-            this.lbl_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.Location = new System.Drawing.Point(59, 17);
+            this.lbl_name.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.ForeColor = System.Drawing.Color.Crimson;
+            this.lbl_name.Location = new System.Drawing.Point(59, 3);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(164, 24);
+            this.lbl_name.Size = new System.Drawing.Size(164, 38);
             this.lbl_name.TabIndex = 0;
             this.lbl_name.Text = "label1";
             // 
             // lbl_fb
             // 
+            this.lbl_fb.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fb.Location = new System.Drawing.Point(61, 96);
             this.lbl_fb.Name = "lbl_fb";
             this.lbl_fb.Size = new System.Drawing.Size(589, 74);
@@ -56,10 +58,11 @@
             // lbl_rate
             // 
             this.lbl_rate.AutoSize = true;
-            this.lbl_rate.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_rate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_rate.ForeColor = System.Drawing.Color.DarkKhaki;
             this.lbl_rate.Location = new System.Drawing.Point(61, 57);
             this.lbl_rate.Name = "lbl_rate";
-            this.lbl_rate.Size = new System.Drawing.Size(54, 19);
+            this.lbl_rate.Size = new System.Drawing.Size(61, 22);
             this.lbl_rate.TabIndex = 3;
             this.lbl_rate.Text = "label3";
             // 

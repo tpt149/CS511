@@ -40,6 +40,7 @@ namespace Shopping_online1
             grid.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             grid.Columns[2].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             calendar.MinDate = DateTime.Now;
+            lbl_back.Visible = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -67,6 +68,7 @@ namespace Shopping_online1
 
         private void btn_collection_Click(object sender, EventArgs e)
         {
+            lbl_back.Visible = false;
             timer1.Start();
             splitContainer1.Visible = true;
             txtSearch.Visible = true;
@@ -78,7 +80,7 @@ namespace Shopping_online1
         private void btn_home_Click(object sender, EventArgs e)
         {
             firstCustomControl1.Visible = true;
-            firstCustomControl1.Location = new Point(275, 170);
+            firstCustomControl1.Location = new Point(230, 200);
             //payy1.Visible = false;
             splitContainer1.Visible = false;
             txtSearch.Visible = false;
@@ -288,6 +290,11 @@ namespace Shopping_online1
 
         private void btn_pay_Click(object sender, EventArgs e)
         {
+            if(lblTot.Text.Replace("$", "")=="0")
+            {
+                lbl_back.Text = "Please order items...";
+                lbl_back.Visible = true;
+            }
             splitContainer1.Visible = false;
             txtSearch.Visible = false;
             if (double.Parse(lblTot.Text.Replace("$", "")) != 0)
@@ -305,6 +312,15 @@ namespace Shopping_online1
 
         private void btn_payment_Click(object sender, EventArgs e)
         {
+            if (lblTot.Text.Replace("$", "") == "0")
+            {
+                lbl_back.Text = "Please order items...";
+                lbl_back.Visible = true;
+            }
+            else
+            {
+                lbl_back.Visible = false;
+            }
             splitContainer1.Visible = false;
             txtSearch.Visible = false;
             if(double.Parse(lblTot.Text.Replace("$", "")) !=0)
