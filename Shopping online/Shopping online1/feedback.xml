@@ -30,4 +30,19 @@
     <star>Rate: </star>
     <feedback>Write your feedback...</feedback>
   </item>
+  <item>
+    <name>Customer 1</name>
+    <star>Rate: 3</star>
+    <feedback>Write your feedback...</feedback>
+  </item>
+  <item>
+    <name>Customer 1</name>
+    <star>Rate: 4</star>
+    <feedback>Write your feedback...</feedback>
+  </item>
+  <item>
+    <name>Customer 1</name>
+    <star>Rate: 4</star>
+    <feedback>Write your feedback...</feedback>
+  </item>
 </a>
