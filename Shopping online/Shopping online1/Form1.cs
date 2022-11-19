@@ -424,9 +424,12 @@ namespace Shopping_online1
             para4.Name = "time";
             para4.Values.Add(c.date);
             frm.reportViewer1.LocalReport.SetParameters(new ReportParameter[] { para1, para2, para3, para4 });
-            var qrcode_text = $"2|99|{txt_phone.Text.Trim()}|{txt_name.Text.Trim()}|{txt_phone.Text.Trim()}|0|0|{lbl_temp.Text.Trim()}";
+            var qrcode_text = $"Time delivery: {calendar.Value.ToString().Trim()}" +"\n"+
+                $"Name: {txt_name.Text.Trim()}" +"\n"+
+                $"Phone: {txt_phone.Text.Trim()}" +"\n"+
+                $"Total: {lbl_temp.Text.Trim()}";
             BarcodeWriter barcodeWriter = new BarcodeWriter();
-            EncodingOptions encodingOptions = new EncodingOptions() { Width = 250, Height = 250, Margin = 0, PureBarcode = false };
+            EncodingOptions encodingOptions = new EncodingOptions() { Width = 200, Height = 200, Margin = 0, PureBarcode = false };
             encodingOptions.Hints.Add(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
             barcodeWriter.Renderer = new BitmapRenderer();
             barcodeWriter.Options = encodingOptions;
