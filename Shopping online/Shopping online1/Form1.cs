@@ -79,6 +79,8 @@ namespace Shopping_online1
 
         private void btn_home_Click(object sender, EventArgs e)
         {
+
+            lbl_back.Visible = false;
             firstCustomControl1.Visible = true;
             firstCustomControl1.Location = new Point(230, 200);
             //payy1.Visible = false;
@@ -485,6 +487,8 @@ namespace Shopping_online1
 
         private void button5_Click(object sender, EventArgs e)
         {
+
+            lbl_back.Visible = false;
             Customer c = new Customer();
             c.Show();
         }
