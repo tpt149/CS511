@@ -54,33 +54,11 @@ namespace Shopping_online1
             tag.Add("feedback");
             //i.Them(o, tag);
             i.Them(o, "name", "star", "feedback");
-            MessageBox.Show("Đã gửi nhận xét. Thanks \t٩(๑❛ᴗ❛๑)۶");
+            MessageBox.Show("Thanks for your feedback \t٩(๑❛ᴗ❛๑)۶");
         }
 
         private void Customer_Load(object sender, EventArgs e)
         {
-            var xml = new XmlDocument();
-            xml.Load(@"..//..//xml/feedback.xml");
-            XmlNodeList nodeList = xml.SelectNodes("/cart" + "/item");
-            string nameFback = "";
-            string starFback = "";
-            string textFback = "";
-            for (int i = 0; i < nodeList.Count; i++)
-            {
-                nameFback = nodeList[i].SelectSingleNode("name").InnerText.Trim();
-
-                if (nameFback == name)
-                {
-                    starFback = nodeList[i].SelectSingleNode("star").InnerText.Trim();
-                    textFback = nodeList[i].SelectSingleNode("feedback").InnerText.Trim();
-                    loadFeeadback(Convert.ToInt32(starFback), textFback);
-                    break;
-                }
-                else
-                {
-                    lbl_core.Text = "Chưa có đánh giá";
-                }
-            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
