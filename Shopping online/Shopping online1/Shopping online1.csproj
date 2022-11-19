@@ -106,6 +106,8 @@
     <Compile Include="Infor.Designer.cs">
       <DependentUpon>Infor.cs</DependentUpon>
     </Compile>
+    <Compile Include="item.cs" />
+    <Compile Include="orders.cs" />
     <Compile Include="Pay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -237,6 +239,7 @@
     <None Include="Resources\logo_momo.png" />
     <None Include="Resources\logo_zalopay.png" />
     <None Include="Resources\logo_shopeepay.png" />
+    <Content Include="feedback.xml" />
     <Content Include="Icon\Dried Papaya.png" />
     <None Include="Resources\yellow_star.png" />
     <None Include="Resources\white_star.png" />

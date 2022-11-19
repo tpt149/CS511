@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace Shopping_online1
 {
@@ -20,7 +21,7 @@ namespace Shopping_online1
             txt_fb.Text = "Write your feedback...";
             txt_fb.ForeColor = Color.Silver;
         }
-        int i = 0;
+        int x = 0;
         private void btn_send_Click(object sender, EventArgs e)
         {
             pictureBox1.Image = Resources.white_star;
@@ -28,23 +29,58 @@ namespace Shopping_online1
             pictureBox3.Image = Resources.white_star;
             pictureBox4.Image = Resources.white_star;
             pictureBox5.Image = Resources.white_star;
-            i++;
+            x++;
             feedback f = new feedback();
             flowLayoutPanel1.Controls.Add(f);
             f.lbl_fb.Text = txt_fb.Text;
             f.lbl_rate.Text = "Rate: "+a;
-            f.lbl_name.Text = "Customer " + i.ToString();
+            f.lbl_name.Text = "Customer " + x.ToString();
             if (txt_fb.Text != "")
             {
                 txt_fb.Text = "Write your feedback...";
                 txt_fb.ForeColor = Color.Silver;
             }
             //f.lbl_name.Text = inf.txt_name.Text;
+            item i = new item();
+            orders o = new orders();
+            //Form1.ShoppingInfo.GlobalStar[index] = Convert.ToInt32(lbl_core.Text);
+            //Form1.ShoppingInfo.GlobalFeedback[index] = richTextBox1.Text;
+            o.Name = f.lbl_name.Text;
+            o.Feedback = txt_fb.Text;
+            o.Star = f.lbl_rate.Text;
+            var tag = new List<string>();
+            tag.Add("name");
+            tag.Add("star");
+            tag.Add("feedback");
+            //i.Them(o, tag);
+            i.Them(o, "name", "star", "feedback");
+            MessageBox.Show("Đã gửi nhận xét. Thanks \t٩(๑❛ᴗ❛๑)۶");
         }
 
         private void Customer_Load(object sender, EventArgs e)
         {
+            var xml = new XmlDocument();
+            xml.Load(@"..//..//xml/feedback.xml");
+            XmlNodeList nodeList = xml.SelectNodes("/cart" + "/item");
+            string nameFback = "";
+            string starFback = "";
+            string textFback = "";
+            for (int i = 0; i < nodeList.Count; i++)
+            {
+                nameFback = nodeList[i].SelectSingleNode("name").InnerText.Trim();
 
+                if (nameFback == name)
+                {
+                    starFback = nodeList[i].SelectSingleNode("star").InnerText.Trim();
+                    textFback = nodeList[i].SelectSingleNode("feedback").InnerText.Trim();
+                    loadFeeadback(Convert.ToInt32(starFback), textFback);
+                    break;
+                }
+                else
+                {
+                    lbl_core.Text = "Chưa có đánh giá";
+                }
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -117,6 +153,11 @@ namespace Shopping_online1
         private void txt_fb_Click(object sender, EventArgs e)
         {
             txt_fb.Text = "";
+        }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
