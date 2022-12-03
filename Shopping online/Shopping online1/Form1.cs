@@ -488,7 +488,7 @@ namespace Shopping_online1
         private void button5_Click(object sender, EventArgs e)
         {
 
-            lbl_back.Visible = false;
+            lbl_back.Visible = false;   
             Customer c = new Customer();
             c.Show();
         }
