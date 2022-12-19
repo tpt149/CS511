@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -179,11 +180,13 @@ namespace Musicapp
                     {
                         picLove.BackgroundImage = Image.FromFile(@"..//..//icon/heartt.png");
                         Form1.songs.Love[i] = "false";
+                        aflat = "false";
                     }
                     else
                     {
                         picLove.BackgroundImage = Image.FromFile(@"..//..//icon/redheart.png");
                         Form1.songs.Love[i] = "true";
+                        aflat = "true";
                     }
                 }
             }

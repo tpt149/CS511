@@ -42,7 +42,7 @@ namespace Musicapp
             wplayer.Ctlcontrols.play();
             if (love == "true")
             {
-                picLove.BackgroundImage = Image.FromFile(@"..//..//img/icon/redheart.png");
+                picLove.BackgroundImage = Image.FromFile(@"..//..//icon/redheart.png");
             }
 
             //Add history
@@ -157,7 +157,22 @@ namespace Musicapp
 
         private void picLove_Click(object sender, EventArgs e)
         {
-
+            for (int i = 0; i < Form1.songs.Name.Count; i++)
+            {
+                if (Form1.songs.Name[i] == name)
+                {
+                    if (Form1.songs.Love[i] != "false")
+                    {
+                        picLove.BackgroundImage = Image.FromFile(@"..//..//icon/heartt.png");
+                        Form1.songs.Love[i] = "false";
+                    }
+                    else
+                    {
+                        picLove.BackgroundImage = Image.FromFile(@"..//..//icon/redheart.png");
+                        Form1.songs.Love[i] = "true";
+                    }
+                }
+            }
         }
 
 

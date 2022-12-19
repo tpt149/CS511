@@ -63,7 +63,7 @@
             this.labName.ForeColor = System.Drawing.Color.PapayaWhip;
             this.labName.Location = new System.Drawing.Point(101, 24);
             this.labName.Name = "labName";
-            this.labName.Size = new System.Drawing.Size(414, 23);
+            this.labName.Size = new System.Drawing.Size(170, 23);
             this.labName.TabIndex = 1;
             this.labName.Text = "Tên bài hát";
             // 
@@ -73,7 +73,7 @@
             this.labType.ForeColor = System.Drawing.Color.PapayaWhip;
             this.labType.Location = new System.Drawing.Point(469, 24);
             this.labType.Name = "labType";
-            this.labType.Size = new System.Drawing.Size(99, 23);
+            this.labType.Size = new System.Drawing.Size(78, 23);
             this.labType.TabIndex = 2;
             this.labType.Text = "Thể loại";
             // 

@@ -104,6 +104,7 @@
             this.picLove.Size = new System.Drawing.Size(36, 32);
             this.picLove.TabIndex = 25;
             this.picLove.TabStop = false;
+            this.picLove.Click += new System.EventHandler(this.picLove_Click);
             // 
             // pb_str5
             // 

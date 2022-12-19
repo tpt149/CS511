@@ -109,9 +109,11 @@
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.labName);
             this.Controls.Add(this.picPlaylist);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "playlist";
             this.Size = new System.Drawing.Size(383, 112);
             this.Load += new System.EventHandler(this.playlist_Load);
+            this.Click += new System.EventHandler(this.playlist_Click);
             ((System.ComponentModel.ISupportInitialize)(this.picPlaylist)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

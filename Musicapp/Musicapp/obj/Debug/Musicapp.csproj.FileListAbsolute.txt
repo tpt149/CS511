@@ -103,3 +103,5 @@ C:\Code\C#\Musicapp - Copy\Musicapp\obj\Debug\AxInterop.WMPLib.dll
 C:\Code\C#\Musicapp - Copy\Musicapp\obj\Debug\Musicapp.csproj.ResolveComReference.cache
 C:\Code\C#\Musicapp - Copy\Musicapp\bin\Debug\Aspose.Imaging.xml
 C:\Code\C#\Musicapp - Copy\Musicapp\obj\Debug\Musicapp.playlist.resources
+C:\Code\C#\Musicapp - Copy\Musicapp\obj\Debug\Musicapp.Form3.resources
+C:\Code\C#\Musicapp - Copy\Musicapp\obj\Debug\Musicapp.Form4.resources

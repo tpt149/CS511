@@ -72,6 +72,8 @@ namespace Musicapp
         private void bunifuImageButton1_Click_1(object sender, EventArgs e)
         {
             //Form1.dgv1.Visible = true;
+            Form3 p = new Form3(NamePlayList);
+            p.Show();
         }
         public string Item_Name
         {
@@ -84,16 +86,24 @@ namespace Musicapp
                 labName.Text = value;
             }
         }
-        /*public string ItemAuthor
+
+        private void playlist_Click(object sender, EventArgs e)
         {
-            get
-            {
-                return labName.Text;
-            }
-            set
-            {
-                labName.Text = value;
-            }
-        }*/
+
+            Form4 page = new Form4(NamePlayList);
+            page.labName.Text = "PlayList " + NamePlayList;
+            page.Show();
+        }
+        /*public string ItemAuthor
+{
+   get
+   {
+       return labName.Text;
+   }
+   set
+   {
+       labName.Text = value;
+   }
+}*/
     }
 }

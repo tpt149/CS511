@@ -140,7 +140,7 @@
   <data name="ptb_dots.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAAORJREFUaEPtlTEOwjAMRT3BIbgi7cE4AEokZihTU8TELVDZwUZmoHECDMgg/Sf9
+        DQAACw0B7QfALAAAAORJREFUaEPtlTEOwjAMRT3BIbgi7cE4AEokZihTU8TELVDZwUZmoHECDMgg/Sf9
         qKp/vtU0TQkAAAAAAAAAgDenNc1TpHYI1LEuqi4FaqSmtpe45PQbWrA5DZGupgL14lF7EZccfdKy+SGe
         VFtBtxw2t6bB0CHQUvtkuOXwxX5aKIn33077ZHDdJ4eH0SpaEq/2yXDL+WQC66x9MtxyePj7LdRYRUvV
         j88rR44iOZIsw5PYc1zRTPtkuObIT6E6iWvv/oDccuRp5JXIvmKNd0Xayr3aik35tRwAAAAAAAAAAN+B
@@ -150,7 +150,7 @@
   <data name="picAdd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAdxJREFUaEPtmFFK7EAQRbMQ/Z71CIprdBDcmIrOBmK3nCm0qKKumdhByYHLg9w6
+        DgAACw4BQL7hQQAAAdxJREFUaEPtmFFK7EAQRbMQ/Z71CIprdBDcmIrOBmK3nCm0qKKumdhByYHLg9w6
         6Zrgy0emnZ2dn3M/zde30/x4N82nlvmXc2pnPbV/Dxx/GX35drOXLwcMSfsRr/1s1lgOTz48ZECOrLGc
         dpMRfzZh2sN7Z43lRDceGdZYTnTTkWGN5UQ3VYJuRDNK0JcT3VQJuhHNKEHPqQTfq0E3ohkl6DmV4Hs1
         6EY0owQ9pxJ8rwbdiGaUoOdUgu/VoBvRjBL0nErwvRp0I5pRgp5TCb5Xg25EM0rQcyrB9+dQr0Z0Rg91
@@ -608,7 +608,7 @@
   <data name="picLove.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABARJREFUaEPtmEdoVEEYx9eKDctFEVEP5pCd2STgat68TWQVQVQUCwQLgoggloMH
+        EAAACxABrSO9dQAABARJREFUaEPtmEdoVEEYx9eKDctFEVEP5pCd2STgat68TWQVQVQUCwQLgoggloMH
         FVGxHsRDLgqebAiKBQKKYE327VPUoImoSMCGiCWi2EAhMSb6/2a+aDAmzrrFCO8Hw+5+33xt2pu3oYCA
         gICAgFSoiskxSVeuRtvjueJ40hX7PCU2+K6MfQuFunG3DqE+1Dep5EbY7zc+5B7ySb65W+bxlShGogkE
         +tZR81z5AAktYJN2JJVYiH4Pf7Vr2zjGeDbJDEhsLYJ/5SD1CLIXBS1OxsLTKWHIduKzjvVUyJELhYX9
