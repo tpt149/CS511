@@ -17,7 +17,7 @@ namespace Musicapp
         {
             InitializeComponent();
             picLove.Visible = false;
-            picAdd.Visible = false;
+            //picAdd.Visible = false;
             ptr_Item.Visible = false;  
         }
         /*public void loadFeedback(int star)
@@ -141,13 +141,13 @@ namespace Musicapp
             if (b == false)
             {
                 picLove.Visible = true;
-                picAdd.Visible = true;
+                //picAdd.Visible = true;
                 b = true;
             }
             else
             {
                 picLove.Visible = false;
-                picAdd.Visible = false;
+                //picAdd.Visible = false;
                 b = false;
             }
         }

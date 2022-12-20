@@ -276,9 +276,9 @@
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Controls.Add(this.txtLyric);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(697, 135);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(663, 135);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(529, 460);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(610, 460);
             this.flowLayoutPanel1.TabIndex = 37;
             // 
             // Form2

@@ -35,12 +35,10 @@
             this.lab_author = new System.Windows.Forms.Label();
             this.labDur = new System.Windows.Forms.Label();
             this.ptb_dots = new System.Windows.Forms.PictureBox();
-            this.picAdd = new System.Windows.Forms.PictureBox();
             this.ptr_Item = new System.Windows.Forms.PictureBox();
             this.picLove = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_dots)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptr_Item)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLove)).BeginInit();
             this.SuspendLayout();
@@ -63,7 +61,7 @@
             this.labName.ForeColor = System.Drawing.Color.PapayaWhip;
             this.labName.Location = new System.Drawing.Point(101, 24);
             this.labName.Name = "labName";
-            this.labName.Size = new System.Drawing.Size(170, 23);
+            this.labName.Size = new System.Drawing.Size(322, 23);
             this.labName.TabIndex = 1;
             this.labName.Text = "Tên bài hát";
             // 
@@ -109,18 +107,6 @@
             this.ptb_dots.TabStop = false;
             this.ptb_dots.Click += new System.EventHandler(this.ptb_dots_Click);
             // 
-            // picAdd
-            // 
-            this.picAdd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picAdd.BackgroundImage")));
-            this.picAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picAdd.Location = new System.Drawing.Point(1044, 3);
-            this.picAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picAdd.Name = "picAdd";
-            this.picAdd.Size = new System.Drawing.Size(25, 25);
-            this.picAdd.TabIndex = 21;
-            this.picAdd.TabStop = false;
-            this.picAdd.Click += new System.EventHandler(this.picAdd_Click);
-            // 
             // ptr_Item
             // 
             this.ptr_Item.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptr_Item.BackgroundImage")));
@@ -136,7 +122,7 @@
             // 
             this.picLove.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picLove.Image = ((System.Drawing.Image)(resources.GetObject("picLove.Image")));
-            this.picLove.Location = new System.Drawing.Point(1013, 3);
+            this.picLove.Location = new System.Drawing.Point(1044, 3);
             this.picLove.Name = "picLove";
             this.picLove.Size = new System.Drawing.Size(25, 25);
             this.picLove.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -150,7 +136,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.picLove);
             this.Controls.Add(this.ptr_Item);
-            this.Controls.Add(this.picAdd);
             this.Controls.Add(this.ptb_dots);
             this.Controls.Add(this.labDur);
             this.Controls.Add(this.lab_author);
@@ -163,7 +148,6 @@
             this.Click += new System.EventHandler(this.song_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_dots)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picAdd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptr_Item)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLove)).EndInit();
             this.ResumeLayout(false);
@@ -178,7 +162,6 @@
         private System.Windows.Forms.Label lab_author;
         private System.Windows.Forms.Label labDur;
         private System.Windows.Forms.PictureBox ptb_dots;
-        private System.Windows.Forms.PictureBox picAdd;
         private System.Windows.Forms.PictureBox ptr_Item;
         private System.Windows.Forms.PictureBox picLove;
     }
